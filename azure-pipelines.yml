@@ -8,6 +8,7 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
+
 jobs:
 - template: environment_setup/iac-create-environment-pipeline-arm.yml
 
